@@ -1,0 +1,30 @@
+#flex-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+}
+
+#container{
+    height: 300px;
+    width: 250px;
+    background-color: yellow;
+}
+
+#image{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    background-color: aqua;
+}
+
+#des{
+    overflow-x: auto;
+}
+
+#info{
+    margin-left: 5%;
+    font-size:larger;
+    /* background-color: blue; */
+}
