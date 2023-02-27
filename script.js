@@ -11,11 +11,14 @@ fetch("https://dummyjson.com/products")
                 </div>
                 <div id="info">
                     <div id="des">
-                        <span>${product.title}</span>
+                        <span>Title: ${product.title}</span>
                     </div>
-                    <div>${product.price}</div>
-                    <div>${product.rating}</div>
-                    <div>${product.stock}</div>
+                    <div id="price">
+                        <span>Price: ${product.price}</span>
+                        <span>${product.discountPercentage}% Off</span>
+                    </div>
+                    <div>Rating: ${product.rating}</div>
+                    <div>Stock: ${product.stock}</div>
                 </div>
             </div>
             `;

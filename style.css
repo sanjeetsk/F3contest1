@@ -1,4 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0;
+    background-color: burlywood;
+    width: 100%;
+    position: fixed;
+    /* top: ; */
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.navbar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1em;
+    list-style: none;
+}
+
+
 #flex-container{
+    padding-top: 60px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -24,7 +62,14 @@
 }
 
 #info{
+    margin-top: 2%;
     margin-left: 5%;
-    font-size:larger;
+    margin-right: 5%;
+    font-size:15px;
     /* background-color: blue; */
+}
+
+#price{
+    display: flex;
+    justify-content: space-between;
 }
